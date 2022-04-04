@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.13.0" timestamp="2022-04-04T07:42:58.407">
+<file name="C:\Users\ALONSO NAVARRO\Documents\DesafioYape\base-continuous-testing-WEB\src\main\java\Utils\SimpleTesting.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="26" rule="UnusedImports" ruleset="Best Practices" package="Utils" class="SimpleTesting" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.nio.file.Path'
+</violation>
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Best Practices" package="Utils" class="SimpleTesting" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.nio.file.Paths'
+</violation>
+</file>
+<file name="C:\Users\ALONSO NAVARRO\Documents\DesafioYape\base-continuous-testing-WEB\src\main\java\com\continousTesting\base\page\PeruRailPage.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Best Practices" package="com.continousTesting.base.page" class="PeruRailPage" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'net.serenitybdd.screenplay.actions.ByAction'
+</violation>
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Best Practices" package="com.continousTesting.base.page" class="PeruRailPage" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'net.serenitybdd.screenplay.targets.ByTarget'
+</violation>
+</file>
+<file name="C:\Users\ALONSO NAVARRO\Documents\DesafioYape\base-continuous-testing-WEB\src\test\java\com\continousTesting\base\baseTest.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Best Practices" package="com.continousTesting.base" class="baseTest" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'io.cucumber.plugin.event.Node'
+</violation>
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="61" rule="UnusedImports" ruleset="Best Practices" package="com.continousTesting.base" class="baseTest" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'net.serenitybdd.core.annotations.events.BeforeExample'
+</violation>
+</file>
+<file name="C:\Users\ALONSO NAVARRO\Documents\DesafioYape\base-continuous-testing-WEB\src\test\java\com\continousTesting\base\stepDefinitions\PeruRailSD.java">
+<violation beginline="1" endline="180" begincolumn="1" endcolumn="3" rule="TooManyStaticImports" ruleset="Code Style" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#toomanystaticimports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="9" endline="9" begincolumn="8" endcolumn="80" rule="DuplicateImports" ruleset="Code Style" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#duplicateimports" priority="4">
+Avoid duplicate imports such as 'com.continousTesting.base.task.PeruRail.actions.SelectTipoCabinayCantidad'
+</violation>
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="63" rule="UnusedImports" ruleset="Best Practices" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'net.serenitybdd.screenplay.GivenWhenThen.seeThat'
+</violation>
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="45" rule="UnusedImports" ruleset="Best Practices" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.hamcrest.Matchers.contains'
+</violation>
+<violation beginline="118" endline="118" begincolumn="17" endcolumn="37" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" method="verificoDatosOrigenEnCarritoResumen" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'GivenWhenThen.seeThat' due to existing static import 'net.serenitybdd.screenplay.GivenWhenThen.seeThat'
+</violation>
+<violation beginline="119" endline="119" begincolumn="17" endcolumn="37" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" method="verificoDatosOrigenEnCarritoResumen" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'GivenWhenThen.seeThat' due to existing static import 'net.serenitybdd.screenplay.GivenWhenThen.seeThat'
+</violation>
+<violation beginline="120" endline="120" begincolumn="17" endcolumn="37" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" method="verificoDatosOrigenEnCarritoResumen" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'GivenWhenThen.seeThat' due to existing static import 'net.serenitybdd.screenplay.GivenWhenThen.seeThat'
+</violation>
+<violation beginline="121" endline="121" begincolumn="17" endcolumn="37" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="com.continousTesting.base.stepDefinitions" class="PeruRailSD" method="verificoDatosOrigenEnCarritoResumen" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'GivenWhenThen.seeThat' due to existing static import 'net.serenitybdd.screenplay.GivenWhenThen.seeThat'
+</violation>
+</file>
+<file name="C:\Users\ALONSO NAVARRO\Documents\DesafioYape\base-continuous-testing-WEB\src\test\java\com\continousTesting\base\task\PeruRail\actions\SelectPasajeros.java">
+<violation beginline="62" endline="62" begincolumn="17" endcolumn="57" rule="UselessParentheses" ruleset="Code Style" package="com.continousTesting.base.task.PeruRail.actions" class="SelectPasajeros" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="63" endline="63" begincolumn="18" endcolumn="90" rule="UselessParentheses" ruleset="Code Style" package="com.continousTesting.base.task.PeruRail.actions" class="SelectPasajeros" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="64" endline="64" begincolumn="18" endcolumn="93" rule="UselessParentheses" ruleset="Code Style" package="com.continousTesting.base.task.PeruRail.actions" class="SelectPasajeros" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\ALONSO NAVARRO\Documents\DesafioYape\base-continuous-testing-WEB\src\test\java\com\continousTesting\base\task\PeruRail\actions\SelectTren.java">
+<violation beginline="47" endline="47" begincolumn="18" endcolumn="58" rule="UselessParentheses" ruleset="Code Style" package="com.continousTesting.base.task.PeruRail.actions" class="SelectTren" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="48" endline="48" begincolumn="19" endcolumn="91" rule="UselessParentheses" ruleset="Code Style" package="com.continousTesting.base.task.PeruRail.actions" class="SelectTren" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="49" endline="49" begincolumn="19" endcolumn="94" rule="UselessParentheses" ruleset="Code Style" package="com.continousTesting.base.task.PeruRail.actions" class="SelectTren" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

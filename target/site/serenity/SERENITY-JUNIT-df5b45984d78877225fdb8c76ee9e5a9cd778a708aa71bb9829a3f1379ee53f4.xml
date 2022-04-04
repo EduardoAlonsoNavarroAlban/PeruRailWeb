@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Reserva de pasajes de tren en Peru Rail" skipped="0" tests="2" time="138.51" timestamp="2022-04-04 07:40:30"><testcase name="Primera reserva en Cusco (Puno &gt; Cusco)"/><testcase name="Segunda reserva en Cusco (Machu Picchu &gt; Cusco)"/></testsuite>

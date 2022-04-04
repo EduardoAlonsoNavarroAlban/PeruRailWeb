@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.continousTesting.base.baseTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 143.48 s - in com.continousTesting.base.baseTest

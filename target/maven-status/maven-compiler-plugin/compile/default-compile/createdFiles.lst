@@ -1,0 +1,12 @@
+Utils\Pause.class
+Utils\WebDriverUtils.class
+Utils\FrontEndException.class
+Utils\Alerts.class
+Utils\SwipeDown.class
+Utils\DataFileWriter.class
+Utils\SwipeRight.class
+Utils\SimpleTesting.class
+util\exceptions\CannotAuthenticateException.class
+com\continousTesting\base\page\PeruRailPage.class
+Utils\SwipeLeft.class
+Utils\SwipeUp.class
